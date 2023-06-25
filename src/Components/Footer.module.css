@@ -1,0 +1,42 @@
+#Footer{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #00714C;
+    color: white;
+    height: 50vh;
+    font-size: 1.2rem;
+}
+
+#container{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: baseline;
+    margin-top: 5%;
+}
+#left{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#middle{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.5rem;
+}
+#right{
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#icons{
+    width: 120%;
+    display: flex;
+    justify-content: space-between;
+}
+#copyright{
+    margin-bottom: 2%;
+    font-size: 1.5rem;
+}

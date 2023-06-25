@@ -1,0 +1,39 @@
+#Card{
+    border-radius: 5%;
+    box-shadow: 0 .4vh .8vw 0 rgba(0, 0, 0, 0.4);
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 5%;
+    height: 60vh;
+    width: 25%;
+    justify-content: space-between;
+    
+}
+#Card img{
+    height: 25vh;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5% 5% 0% 0%;
+}
+#CardText{
+    margin: 5%;
+    /* padding: 5%; */
+}
+#Card button{
+    cursor: pointer;
+    color: white;
+    background-color: #00714C;
+    border: none;
+    border-radius: 8%;
+    /* font-size: 1.5rem; */
+    padding-top: 15%;
+    padding-bottom: 15%;
+    width: 160%;
+    margin-left: -25%;
+    margin-bottom: 15%;
+    font-weight: bolder;
+}
